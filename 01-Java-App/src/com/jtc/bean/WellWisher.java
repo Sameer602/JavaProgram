@@ -3,6 +3,7 @@ package com.jtc.bean;
 public class WellWisher {
 	
 	public static void wish(Greeting greeting) {
+            System.out.println("Hello.......Good Morning");
 		greeting.greet();		
 	}
 	public static void main(String[] args) {
